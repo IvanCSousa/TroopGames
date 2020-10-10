@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Teste</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+
+  <aside id="left"> 
+    <label for="categoria">Categoria</label>
+    <select name="categoria">
+        <option> <a href = "#aventura">Aventura</a> </option>
+        <option> <a href = "#rpg">RPG</a> </option>
+        <option> <a href = "#acao">Ação</a> </option>
+        <option> <a href = "#estrategia">Estratégia</a></option>
+    </select>
+    
+    <label for="aclamado">Aclamados pela mídia</label>
+    <select name = "aclamado">
+        <option> <a href = "#GTA"> GTA V</a> </option>
+        <option> <a href = "#skyrim">Skyrim</a> </option>
+        <option> <a href = "#fallout03">Fallout 03</a> </option>
+        <option> <a href = "#thelastofus">The Last of Us II</a> </option>
+    </select>
+
+	</aside>
+
+	<nav>
+
+	  <fieldset>
+	  
+	    <input type="text" 		name="name" 			size="10" maxlength = "20" placeholder = "Nome">
+	    <input type="text" 		name="plataforma" size="10" maxlength = "20" placeholder = "Plataforma">
+	    <input type="text" 		name="dev" 				size="10" maxlength = "20" placeholder = "Desenvolvedor">
+	<input type="number" 	name="ano" 				size="10" maxlength = "20" placeholder = "Ano">
+	<input type="text" 		name="genero" 				size="10" maxlength = "20" placeholder = "Gênero">
+	<input type="button" name = "botaoPesquisa" value="Pesquisar"> 
+	  
+	  </fieldset> 
+	    
+	  <a href=""><input type = "button" name = "botaoLogin" value = "Login/New User" > </a>
+
+	</nav> 
+
+
+
+
+
+
+	<div class="container">
+	  <h2>Carrossel</h2>
+	  <div id="Carousel" class="carousel slide" data-ride="carousel">
+	    <!-- Indicators -->
+	    <ol class="carousel-indicators">
+	      <li data-target="#Carousel" data-slide-to="0" class="active"></li>
+	      <li data-target="#Carousel" data-slide-to="1"></li>
+	      <li data-target="#Carousel" data-slide-to="2"></li>
+	    </ol>
+
+	    <!-- Wrapper for slides -->
+	    <div class="carousel-inner">
+	        <div class="item active">
+	          <img src="red_dead_redemption_2.jpg" alt="RDD2">
+	        </div>
+
+	        <div class="item">
+	          <img src="fifa_21.jpg" alt="FIFA21">
+	        </div>
+
+	        <div class="item">
+	          <img src="CyberPunk_2077.jpg" alt="CyPk2077">
+	        </div>
+	      </div>
+
+	    <!-- Left and right controls -->
+	    <a class="left carousel-control" href="#Carousel" role="button" data-slide="prev">
+	      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+	      <span class="sr-only">Anterior</span>
+	    </a>
+	    <a class="right carousel-control" href="#Carousel" role="button" data-slide="next">
+	      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+	      <span class="sr-only">Próximo</span>
+	    </a>
+	  </div>
+	</div>
+
+	 <footer>
+	 	
+	 	<img src="logo.jpg" alt="Logo" width=40 height=40>
+	 	<input type="button" name="botaoSaibaMais" value="Saiba Mais">
+	 	
+	 	<div id= bntCanais>
+	 		<p>Acompanhe a gente nos canais</p>
+	 		<a class="bntYoutube" target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
+		    <a class="bntFacebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
+		    <a class="bntGoogle" target="_blank" href="https://www.google.com/"><i class="fa fa-google-square"></i></a>
+		    <a class="bntInstagram" target="_blank" href="https://www.instagram.com/"><i class="fa fa-instagram-square"></i></a>
+		    <a class="bntLinkedin" target="_blank" href="https://www.linkedin.com/"> <i class="fa fa-linkedin-square"></i></a>
+		</div>
+		
+		<div id=contatos_footer>
+			<a class="footer_sugestoes" target="_blank" href="https://docs.google.com/forms">Sugestões</a>
+		   	<a class="footer_duvidas" target="_blank" href="https://docs.google.com/forms">Duvidas</a>
+		   	<a class="footer_contato" target="_blank" href="https://docs.google.com/forms">Contato</a>
+		</div>
+
+		<div id=endereco_footer>
+			<p>Troop Group</p>
+			<p>Universidade de São Paulo - Campus de São Carlos.</p>>
+			<p>Área 1 - Av. Trabalhador são-carlense, 400.</p> 
+			<p>Área 2 - Av. João Dagnone, 1100, São Carlos/SP. Créditos.</p>
+		</div>
+		<p>Copyright &copy; 2020 Equip. Troop de Desenvolvimento</p>  
+	</footer>
+
+</body>
+</html>
+
