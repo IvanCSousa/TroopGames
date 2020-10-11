@@ -1,0 +1,75 @@
+/*CSS cascading style Sheet*/
+:root {
+    /*variaveis css*/
+    --color-background: #d1ebce;
+    --color-primary-lighter: #9999;
+    --color-primary-light: #9999;
+    --color-primary: #9999;
+    --color-primary-dark: #8889;
+    --color-primary-darker: #8888;
+    --color-secondary: #AAAAAA;
+    --color-secondary-dark: #04BF58;
+    --color-title-in-primary: #FFFFFF;
+    --color-text-in-primary: #D4C2FF;
+    --color-text-title: #7777;
+    --color-text-complement: #9C98A6;
+    --color-text-base: #6A6180;
+    --color-line-in-white: #E6E6F0;
+    --color-input-background: #F8F8FC;
+    --color-button-text: #FFFFFF;
+    --color-box-base: #FFFFFF;
+    --color-box-footer: #999999;
+    --color-small-info: #C1BCCC;
+    /*tamanho da fonte padrão 16px - 100% -1rem*/
+    font-size: 60%; /* controle das medidas rem */
+    /*rem referente a tamanho da fonte colocado no root*/
+}
+
+#jogosPromo {
+    width: 100%;
+    background-color: var(--color-secondary);
+    text-align: center;
+}
+
+#jogosPromo ul li{
+    padding: 20px 10px;
+    display: inline-block;
+}
+
+
+
+
+
+
+
+
+footer {
+    width: 100%;
+    position: absolute;
+    clear: both;
+    background-color: var(--color-box-footer);
+    text-align: center;
+    
+}
+.d_footer {
+    display: table-footer-group;
+    padding: 20px;
+}
+
+#logo_footer{
+    float: left;
+    text-align: left;
+}
+
+#btCanais_footer{
+    float: right;
+}
+
+#endereco_footer{
+    float: right;
+} 
+
+#contatos_footer{
+    float: left;
+}
+
