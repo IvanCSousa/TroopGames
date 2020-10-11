@@ -36,16 +36,9 @@
     display: inline-block;
 }
 
-
-
-
-
-
-
-
 footer {
     width: 100%;
-    position: absolute;
+    position: center;
     clear: both;
     background-color: var(--color-box-footer);
     text-align: center;
