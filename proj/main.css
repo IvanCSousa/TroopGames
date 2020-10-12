@@ -27,16 +27,6 @@
 
 
 
-#jogosPromo {
-    width: 100%;
-    background-color: var(--color-secondary);
-    text-align: center;
-}
-
-#jogosPromo ul li{
-    padding: 20px 10px;
-    display: inline-block;
-}
 
 footer {
     width: 100%;
@@ -74,7 +64,7 @@ footer {
 /* Fixed sidenav, full height */
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 230px;
   position: fixed;
   z-index: 0;
   top: 0;
@@ -82,7 +72,9 @@ footer {
   background-color: #111;
   overflow-x: hidden;
   padding-top: 100px;
+  padding-bottom: 15px;
 }
+
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
@@ -106,8 +98,9 @@ footer {
 
 /* Main content */
 .main {
+  background-color: #bbb;
   margin-top: 90px; /*Same as the heigh of the headerMenu*/
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 230px; /* Same as the width of the sidenav */
   font-size: 20px; /* Increased text to enable scrolling */
   padding: 0px 0px;
 }
@@ -132,7 +125,11 @@ footer {
 }
 
 .container_car{
-  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin: auto;
+  align-self: center;
+  
   width: 80%;
   position: center;
 }
@@ -151,7 +148,7 @@ footer {
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   padding: 20px 10px;
-  height: 90px;
+  height: 70px;
 }
 
 /* Style the header links */
@@ -188,6 +185,26 @@ footer {
 .header-right {
  
   float: right;
+}
+
+.promo-games{
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #aaa;
+}
+
+#jogosPromo {
+  width: 100%;
+  background-color: var(--color-secondary-dark);
+  text-align: center;
+  
+}
+
+#jogosPromo ul li{
+  padding: 20px 10px;
+  display: inline-block;
+  
 }
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
