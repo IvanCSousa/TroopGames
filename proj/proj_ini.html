@@ -1,3 +1,14 @@
+<!-- ************************************************* -->
+<!-- ** SCC0219 - INTRODUÇÃO AO DESENVOLVIMENTO WEB ** -->
+<!-- **    EXERCÍCIO 4 - PAGINA INCIAL (PROJETO)    ** -->
+<!-- **                                             ** -->
+<!-- **   Lucas F da Nobrega    - NUSP: 9805320     ** -->
+<!-- **   João Pedro D Torrezan - NUSP: 9806933     ** -->
+<!-- **   Auro M Soares Junior  - NUSP: 9791201     ** -->
+<!-- **   Ivan Costa de Sousa   - NUSP: 9292754     ** -->
+<!-- **   Jonathan Mello        - NUSP: 10377754    ** -->
+<!-- ************************************************* -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,24 +18,21 @@
 	
 	<link rel="stylesheet" type="text/css" href="main.css" />
 
-  <!-- Stylesheet Footer -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-	
-  <!-- Stylesheet Carrossel -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  
-  <!-- Script Carrossel -->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	
+	<!--Menu Header com campos de pesquisa e login/NewUser-->
 	<div class="header">
 		
 		<div class="header-right">
 			<a ><input href="#" type="button" name="botaoLogin" value="Login/New User" > </a>
 		</div>
-		<img class="logo-img" src="img/logo-white.png" alt="Logo" width="50" height="50">
+		<img class="logo-img" src="img/logo-white.png" alt="Logo" width="60" height="60">
 		<div class="header-search">
 			<fieldset>
 				<input type="text" name="name" size="10" maxlength="30" placeholder="Nome">
@@ -83,7 +91,7 @@
 
 	<div class="main">	
 		<div class="container_car">
-			<h2></h2>
+			<h2>Jogos em Destaque</h2>
 			<div id="Carousel" class="carousel slide" data-ride="carousel">
 				<!-- Indicators -->
 				<ol class="carousel-indicators">
@@ -95,15 +103,15 @@
 				<!-- Wrapper for slides -->
 				<div class="carousel-inner">
 					<div class="item active">
-						<img src="red_dead_redemption_2.jpg" alt="RDD2">
+						<img src="img/red_dead_redemption_2.jpg" alt="RDD2">
 					</div>
 
 					<div class="item">
-						<img src="fifa_21.jpg" alt="FIFA21">
+						<img src="img/fifa_21.jpg" alt="FIFA21">
 					</div>
 
 					<div class="item">
-						<img src="CyberPunk_2077.jpg" alt="CyPk2077">
+						<img src="img/CyberPunk_2077.jpg" alt="CyPk2077">
 					</div>
 				</div>
 
@@ -125,18 +133,18 @@
 			<!-- aqui vao ficar promoções especiais -->
 			
 			<div id=promoPrincipal>
-				<a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:826px; height: 550px" ></a>
+				<a href="#"><img src="img/gold-edition.jpg" alt="Promoções da semana" style="width:826px; height: 550px" ></a>
 			</div>
 
 
 			<nav id=jogosPromo>
 				<ul>
 					<h2>50% OFF GAMES</h2>		
-					<li><a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
-					<li><a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
-					<li><a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
-					<li><a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
-					<li><a href="#"><img src="red_dead_redemption_2.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
+					<li><a href="#"><img src="img/GOW.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
+					<li><a href="#"><img src="img/gears.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
+					<li><a href="#"><img src="img/witcher.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
+					<li><a href="#"><img src="img/last.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
+					<li><a href="#"><img src="img/horizon.jpg" alt="Promoções da semana" style="width:126px; height: 80px"></a></li>
 				</ul>
 			</nav>
 		</div>
@@ -146,13 +154,13 @@
 
 		<footer>
 			<div id=logo_footer class="d_footer">
-				<a id=img_logo_footer><img src="logo.jpg" alt="Logo" width=40 height=40></a>
+				<a id=img_logo_footer><img src="img/logo.jpg" alt="Logo" width=40 height=40></a>
 				<input type="button" name="botaoSaibaMais" value="Saiba Mais">
-				<p>Copyright &copy; 2020 Equipe. Troop de desenvolvimento</p>
+				<p>Copyright &copy; 2020 </p>
 			</div>
 
 			<div id= btCanais_footer class="d_footer">
-				<p>Nos acompanhem em nossos canais</p>
+				<p>Acompanhe a gente nos canais</p>
 				<a class="bntYoutube" target="_blank" href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
 				<a class="bntFacebook" target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook-f"></i></a>
 				<a class="bntGoogle" target="_blank" href="https://www.google.com/"><i class="fa fa-google"></i></a>
@@ -167,7 +175,7 @@
 			</div>
 
 			<div id=endereco_footer class="d_footer">
-				<p>Troop Group distribuidora de jogos</p>
+				<p>Troop Games distribuidora de jogos</p>
 				<p>Universidade de São Paulo - Campus de São Carlos.</p>
 				<p>Av. João Dagnone, 1100, São Carlos/SP.</p>
 			</div>

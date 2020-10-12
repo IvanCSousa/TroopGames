@@ -1,220 +1,230 @@
-/*CSS cascading style Sheet*/
+/*
+<!-- ************************************************* -->
+<!-- ** SCC0219 - INTRODUÇÃO AO DESENVOLVIMENTO WEB ** -->
+<!-- **    EXERCÍCIO 4 - PAGINA INCIAL (PROJETO)    ** -->
+<!-- **                                             ** -->
+<!-- **   Lucas F da Nobrega    - NUSP: 9805320     ** -->
+<!-- **   João Pedro D Torrezan - NUSP: 9806933     ** -->
+<!-- **   Auro M Soares Junior  - NUSP: 9791201     ** -->
+<!-- **   Ivan Costa de Sousa   - NUSP: 9292754     ** -->
+<!-- **   Jonathan Mello        - NUSP: 10377754    ** -->
+<!-- ************************************************* -->
+*/
 :root {
-    /*variaveis css*/
-    --color-background: #d1ebce;
-    --color-primary-lighter: #9999;
-    --color-primary-light: #9999;
-    --color-primary: #9999;
-    --color-primary-dark: #8889;
-    --color-primary-darker: #8888;
-    --color-secondary: #AAAAAA;
-    --color-secondary-dark: #04BF58;
-    --color-title-in-primary: #FFFFFF;
-    --color-text-in-primary: #D4C2FF;
-    --color-text-title: #7777;
-    --color-text-complement: #9C98A6;
-    --color-text-base: #6A6180;
-    --color-line-in-white: #E6E6F0;
-    --color-input-background: #F8F8FC;
-    --color-button-text: #FFFFFF;
-    --color-box-base: #FFFFFF;
-    --color-box-footer: #999999;
-    --color-small-info: #C1BCCC;
-    /*tamanho da fonte padrão 16px - 100% -1rem*/
-    font-size: 60%; /* controle das medidas rem */
-    /*rem referente a tamanho da fonte colocado no root*/
+  /*variaveis css*/
+  --color-background: #d1ebce;
+  --color-primary-lighter: #9999;
+  --color-primary-light: #9999;
+  --color-primary: #9999;
+  --color-primary-dark: #8889;
+  --color-primary-darker: #8888;
+  --color-secondary: #AAAAAA;
+  --color-secondary-dark: #04BF58;
+  --color-title-in-primary: #FFFFFF;
+  --color-text-in-primary: #D4C2FF;
+  --color-text-title: #7777;
+  --color-text-complement: #9C98A6;
+  --color-text-base: #6A6180;
+  --color-line-in-white: #E6E6F0;
+  --color-input-background: #F8F8FC;
+  --color-button-text: #FFFFFF;
+  --color-box-base: #FFFFFF;
+  --color-box-footer: #999999;
+  --color-small-info: #C1BCCC;
+  /*tamanho da fonte padrão 16px - 100% -1rem*/
+  font-size: 60%; /* controle das medidas rem */
+  /*rem referente a tamanho da fonte colocado no root*/
 }
 
-
-
-
-footer {
-    width: 100%;
-    position: center;
-    clear: both;
-    background-color: var(--color-box-footer);
-    text-align: center;
-    
-}
-.d_footer {
-    display: table-footer-group;
-    padding: 20px;
-}
-
-#logo_footer{
-    float: left;
-    text-align: left;
-}
-
-#btCanais_footer{
-    float: right;
-}
-
-#endereco_footer{
-    float: right;
-} 
-
-#contatos_footer{
-    float: left;
-}
 
 
 
 /*Sidebar:
 /* Fixed sidenav, full height */
 .sidenav {
-  height: 100%;
-  width: 230px;
-  position: fixed;
-  z-index: 0;
-  top: 0;
-  left: 0;
-  background-color: #111;
-  overflow-x: hidden;
-  padding-top: 100px;
-  padding-bottom: 15px;
+height: 100%;
+width: 230px;
+position: fixed;
+z-index: 0;
+top: 0;
+left: 0;
+background-color: #111;
+overflow-x: hidden;
+padding-top: 80px;
+padding-bottom: 15px;
 }
 
 
 /* Style the sidenav links and the dropdown button */
 .sidenav a, .dropdown-btn {
-  padding: 6px 8px 6px 16px;
-  text-decoration: none;
-  font-size: 20px;
-  color: #818181;
-  display: block;
-  border: none;
-  background: none;
-  width:100%;
-  text-align: left;
-  cursor: pointer;
-  outline: none;
+padding: 6px 8px 6px 16px;
+text-decoration: none;
+font-size: 20px;
+color: #818181;
+display: block;
+border: none;
+background: none;
+width:100%;
+text-align: left;
+cursor: pointer;
+outline: none;
 }
 
 /* On mouse-over */
 .sidenav a:hover, .dropdown-btn:hover {
-  color: #f1f1f1;
+color: #f1f1f1;
 }
 
 /* Main content */
 .main {
-  background-color: #bbb;
-  margin-top: 90px; /*Same as the heigh of the headerMenu*/
-  margin-left: 230px; /* Same as the width of the sidenav */
-  font-size: 20px; /* Increased text to enable scrolling */
-  padding: 0px 0px;
+background-color: #bbb;
+margin-top: 70px; /*Same as the heigh of the headerMenu*/
+margin-left: 230px; /* Same as the width of the sidenav */
+font-size: 20px; /* Increased text to enable scrolling */
+padding: 0px 0px;
 }
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
-  color: white;
+background-color: green;
+color: white;
 }
 
 /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
 .dropdown-container {
-  display: none;
-  background-color: #262626;
-  padding-left: 8px;
+display: none;
+background-color: #262626;
+padding-left: 8px;
 }
 
 /* Optional: Style the caret down icon */
 .fa-caret-down {
-  float: right;
-  padding-right: 8px;
+float: right;
+padding-right: 8px;
 }
 
 .container_car{
-  padding-top: 10px;
-  padding-bottom: 10px;
-  margin: auto;
-  align-self: center;
-  
-  width: 80%;
-  position: center;
+padding-top: 10px;
+padding-bottom: 10px;
+margin: auto;
+align-self: center;
+width: 80%;
+position: center;
 }
 
 .Carousel{
-  
-  width: 800px;
+width: 800px;
 }
 
 /* Style the header with a grey background and some padding */
 .header {
-  z-index: 1;
-  overflow: visible;
-  background-color: #222; 
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
-  padding: 20px 10px;
-  height: 70px;
+z-index: 1;
+overflow: visible;
+background-color: #222; 
+position: fixed; /* Set the navbar to fixed position */
+top: 0; /* Position the navbar at the top of the page */
+width: 100%; /* Full width */
+padding: 10px;
+height: 70px;
 }
 
 /* Style the header links */
 .header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
-  text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+float: left;
+color: black;
+text-align: center;
+padding: 12px;
+text-decoration: none;
+font-size: 18px;
+line-height: 25px;
+border-radius: 4px;
 }
 
 /* Change the background color on mouse-over */
 .header a:hover {
-  background-color: #ddd;
-  color: black;
+background-color: #ddd;
+color: black;
 }
 
 .logo-img{
-  margin-left: 20px;
-  position: center;
-  float: left;
+margin-left: 20px;
+position: center;
+float: left;
 }
 .header-search{
-  padding: 12px;
-  margin-right: 30px;
-  float: right;
+padding: 12px;
+margin-right: 30px;
+float: right;
 
 }
 
 /* Float the link section to the right */
 .header-right {
- 
-  float: right;
+float: right;
 }
 
 .promo-games{
-  margin-top: 20px;
-  padding: 10px;
-  text-align: center;
-  background-color: #aaa;
+margin-top: 20px;
+padding: 10px;
+text-align: center;
+background-color: #aaa;
 }
 
 #jogosPromo {
-  width: 100%;
-  background-color: var(--color-secondary-dark);
-  text-align: center;
-  
+width: 100%;
+background-color: var(--color-secondary-dark);
+text-align: center;
+
 }
 
 #jogosPromo ul li{
-  padding: 20px 10px;
-  display: inline-block;
+padding: 20px 10px;
+display: inline-block;
+
+}
+
+
+footer {
+  width: 100%;
+  position: center;
+  clear: both;
+  background-color: var(--color-box-footer);
+  text-align: center;
   
 }
+.d_footer {
+  display: table-footer-group;
+  padding: 20px;
+}
+
+#logo_footer{
+  float: left;
+  text-align: left;
+}
+
+#btCanais_footer{
+  float: right;
+}
+
+#endereco_footer{
+  float: left;
+  font-size: 85%;
+} 
+
+#contatos_footer{
+  float: left;
+}
+
 
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+.header a {
+  float: none;
+  display: block;
+  text-align: left;
 }
+.header-right {
+  float: none;
+}
+}
+
